@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-public class WordAction extends ActionSupport {
+public class WordAction   {
 
 	private String filePath;// 文件路径
 	private String fileName;// 文件名称
@@ -45,7 +45,7 @@ public class WordAction extends ActionSupport {
 		sb.append("_");
 		sb.append(r.nextInt(100));
 		// 文件路径
-		filePath = ServletActionContext.getServletContext().getRealPath("/") + "upload";
+		filePath = "D:/";
 		// 文件唯一名称
 		fileOnlyName = "用freemarker导出的Word文档_" + sb + ".doc";
 		// 文件名称

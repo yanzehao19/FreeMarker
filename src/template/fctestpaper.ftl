@@ -14,11 +14,12 @@
   <pkg:part pkg:name="/word/_rels/document.xml.rels" pkg:contentType="application/vnd.openxmlformats-package.relationships+xml" pkg:padding="256">
     <pkg:xmlData>
       <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-        <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml"/>
-        <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/>
-        <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
-        <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>
-        <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>
+        <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings" Target="settings.xml"/>
+        <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+        <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering" Target="numbering.xml"/>
+        <Relationship Id="rId6" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme" Target="theme/theme1.xml"/>
+        <Relationship Id="rId5" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>
+        <Relationship Id="rId4" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings" Target="webSettings.xml"/>
       </Relationships>
     </pkg:xmlData>
   </pkg:part>
@@ -26,334 +27,333 @@
     <pkg:xmlData>
       <w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:ve="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
         <w:body>
-          <w:p w:rsidR="008B75E3" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
             <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
               <w:jc w:val="center"/>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:b/>
-                <w:sz w:val="32"/>
-                <w:szCs w:val="32"/>
-              </w:rPr>
             </w:pPr>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:b/>
-                <w:sz w:val="32"/>
-                <w:szCs w:val="32"/>
-              </w:rPr>
-              <w:t>测试用</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:b/>
-                <w:sz w:val="32"/>
-                <w:szCs w:val="32"/>
-              </w:rPr>
-              <w:t>freemarker</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:b/>
-                <w:sz w:val="32"/>
-                <w:szCs w:val="32"/>
-              </w:rPr>
-              <w:t>生成</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:b/>
-                <w:sz w:val="32"/>
-                <w:szCs w:val="32"/>
-              </w:rPr>
-              <w:t>word</w:t>
+            <w:r>
+              <w:t>xytitle</w:t>
             </w:r>
           </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
             <w:pPr>
-              <w:jc w:val="center"/>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
             </w:pPr>
           </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:jc w:val="center"/>
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
+            <w:r>
               <w:rPr>
                 <w:rFonts w:hint="eastAsia"/>
               </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-            </w:pPr>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-              <w:t>用户名：</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-              <w:t>${userName}</w:t>
-            </w:r>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-            </w:pPr>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-              <w:t>日期：</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-              <w:t>${currDate}</w:t>
-            </w:r>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="30"/>
-                <w:szCs w:val="30"/>
-              </w:rPr>
-            </w:pPr>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="30"/>
-                <w:szCs w:val="30"/>
-              </w:rPr>
-              <w:t>${content}</w:t>
-            </w:r>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-              </w:rPr>
-            </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-            <w:pPr>
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-            </w:pPr>
-            <w:r w:rsidRPr="00C848B9">
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia"/>
-                <w:sz w:val="24"/>
-                <w:szCs w:val="24"/>
-              </w:rPr>
-              <w:t>下边是循环输出</w:t>
+              <w:t>一、选择题</w:t>
             </w:r>
           </w:p>
           <w:tbl>
             <w:tblPr>
-              <w:tblStyle w:val="a3"/>
+              <w:tblStyle w:val="a4"/>
               <w:tblW w:w="0" w:type="auto"/>
+              <w:tblInd w:w="420" w:type="dxa"/>
               <w:tblLook w:val="04A0"/>
             </w:tblPr>
             <w:tblGrid>
-              <w:gridCol w:w="2840"/>
-              <w:gridCol w:w="2841"/>
-              <w:gridCol w:w="2841"/>
+              <w:gridCol w:w="4032"/>
+              <w:gridCol w:w="4070"/>
             </w:tblGrid>
-            <w:tr w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidTr="00C848B9">
+            <#list table1 as plan1>
+			<w:tr w:rsidR="00A476DB" w:rsidTr="00A476DB">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="2840" w:type="dxa"/>
+                  <w:tcW w:w="4261" w:type="dxa"/>
                 </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
                   <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
                   </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>标题</w:t>
+                  <w:r>
+                    <w:t>${plan1.xzn}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="2841" w:type="dxa"/>
+                  <w:tcW w:w="4261" w:type="dxa"/>
                 </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00A476DB">
                   <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:left="420"/>
                   </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>内容</w:t>
-                  </w:r>
-                </w:p>
-              </w:tc>
-              <w:tc>
-                <w:tcPr>
-                  <w:tcW w:w="2841" w:type="dxa"/>
-                </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
-                  <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                  </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>作者</w:t>
+                  <w:r>
+                    <w:t>${plan1.xztest}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
             </w:tr>
-			<#list newsList as listKey>
-            <w:tr w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidTr="00C848B9">
+          </w:tbl>
+          <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+            <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
+            </w:pPr>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="a4"/>
+              <w:tblW w:w="0" w:type="auto"/>
+              <w:tblInd w:w="420" w:type="dxa"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="2018"/>
+              <w:gridCol w:w="2017"/>
+              <w:gridCol w:w="2018"/>
+              <w:gridCol w:w="2049"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00A476DB" w:rsidTr="00A476DB">
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="2840" w:type="dxa"/>
+                  <w:tcW w:w="2130" w:type="dxa"/>
                 </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
                   <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
                   </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>${listKey.title}</w:t>
+                  <w:r>
+                    <w:t>${plan1.ans1}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="2841" w:type="dxa"/>
+                  <w:tcW w:w="2130" w:type="dxa"/>
                 </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
                   <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
                   </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>${listKey.content}</w:t>
+                  <w:r>
+                    <w:t>${plan1.ans2}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
               <w:tc>
                 <w:tcPr>
-                  <w:tcW w:w="2841" w:type="dxa"/>
+                  <w:tcW w:w="2131" w:type="dxa"/>
                 </w:tcPr>
-                <w:p w:rsidR="00C848B9" w:rsidRPr="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9">
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
                   <w:pPr>
-                    <w:rPr>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
                   </w:pPr>
-                  <w:r w:rsidRPr="00C848B9">
-                    <w:rPr>
-                      <w:rFonts w:hint="eastAsia"/>
-                      <w:sz w:val="24"/>
-                      <w:szCs w:val="24"/>
-                    </w:rPr>
-                    <w:t>${listKey.author}</w:t>
+                  <w:r>
+                    <w:t>${plan1.ans3}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="2131" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00A476DB">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:left="420"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan1.ans4}</w:t>
                   </w:r>
                 </w:p>
               </w:tc>
             </w:tr>
 			</#list>
           </w:tbl>
-          <w:p w:rsidR="00C848B9" w:rsidRDefault="00C848B9" w:rsidP="00C848B9"/>
-          <w:sectPr w:rsidR="00C848B9" w:rsidSect="008B75E3">
+          <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+            <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
+            </w:pPr>
+          </w:p>
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+              <w:t>二、填空题</w:t>
+            </w:r>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="a4"/>
+              <w:tblW w:w="0" w:type="auto"/>
+              <w:tblInd w:w="420" w:type="dxa"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4032"/>
+              <w:gridCol w:w="4070"/>
+            </w:tblGrid>
+			<#list table2 as plan2>
+			<w:tr w:rsidR="00A476DB" w:rsidTr="00A476DB">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan2.tkn}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00A476DB">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:left="420"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan2.tktest}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+			</#list>
+          </w:tbl>
+          <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+            <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
+            </w:pPr>
+          </w:p>
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+              <w:t>三、判断题</w:t>
+            </w:r>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="a4"/>
+              <w:tblW w:w="0" w:type="auto"/>
+              <w:tblInd w:w="420" w:type="dxa"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4031"/>
+              <w:gridCol w:w="4071"/>
+            </w:tblGrid>
+            <#list table3 as plan3>
+			<w:tr w:rsidR="00A476DB" w:rsidTr="00A476DB">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan3.pdn}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00A476DB">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:left="420"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan3.pdtest}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+			</#list>
+          </w:tbl>
+          <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+            <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420"/>
+            </w:pPr>
+          </w:p>
+          <w:p w:rsidR="00396132" w:rsidRDefault="00396132" w:rsidP="00396132">
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia"/>
+              </w:rPr>
+              <w:t>四、简答题</w:t>
+            </w:r>
+          </w:p>
+          <w:tbl>
+            <w:tblPr>
+              <w:tblStyle w:val="a4"/>
+              <w:tblW w:w="0" w:type="auto"/>
+              <w:tblInd w:w="420" w:type="dxa"/>
+              <w:tblLook w:val="04A0"/>
+            </w:tblPr>
+            <w:tblGrid>
+              <w:gridCol w:w="4032"/>
+              <w:gridCol w:w="4070"/>
+            </w:tblGrid>
+            <#list table4 as plan4>
+			<w:tr w:rsidR="00A476DB" w:rsidTr="00A476DB">
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:firstLineChars="0" w:firstLine="0"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t xml:space="preserve">${plan4.jdn}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+              <w:tc>
+                <w:tcPr>
+                  <w:tcW w:w="4261" w:type="dxa"/>
+                </w:tcPr>
+                <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00A476DB">
+                  <w:pPr>
+                    <w:pStyle w:val="a3"/>
+                    <w:ind w:left="420" w:firstLineChars="0"/>
+                  </w:pPr>
+                  <w:r>
+                    <w:t>${plan4.jdtest}</w:t>
+                  </w:r>
+                </w:p>
+              </w:tc>
+            </w:tr>
+			</#list>
+          </w:tbl>
+          <w:p w:rsidR="00A476DB" w:rsidRDefault="00A476DB" w:rsidP="00396132">
+            <w:pPr>
+              <w:pStyle w:val="a3"/>
+              <w:ind w:left="420" w:firstLineChars="0"/>
+            </w:pPr>
+          </w:p>
+          <w:sectPr w:rsidR="00A476DB" w:rsidSect="00BC52C8">
             <w:pgSz w:w="11906" w:h="16838"/>
             <w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/>
             <w:cols w:space="425"/>
@@ -372,7 +372,7 @@
               <a:sysClr val="windowText" lastClr="000000"/>
             </a:dk1>
             <a:lt1>
-              <a:sysClr val="window" lastClr="FFFFFF"/>
+              <a:sysClr val="window" lastClr="CCE8CF"/>
             </a:lt1>
             <a:dk2>
               <a:srgbClr val="1F497D"/>
@@ -650,7 +650,7 @@
   <pkg:part pkg:name="/word/settings.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml">
     <pkg:xmlData>
       <w:settings xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main">
-        <w:zoom w:percent="100"/>
+        <w:zoom w:percent="140"/>
         <w:bordersDoNotSurroundHeader/>
         <w:bordersDoNotSurroundFooter/>
         <w:defaultTabStop w:val="420"/>
@@ -668,10 +668,14 @@
           <w:useFELayout/>
         </w:compat>
         <w:rsids>
-          <w:rsidRoot w:val="00C848B9"/>
-          <w:rsid w:val="008B75E3"/>
-          <w:rsid w:val="00C848B9"/>
-          <w:rsid w:val="00E9001F"/>
+          <w:rsidRoot w:val="008441E8"/>
+          <w:rsid w:val="002B34E1"/>
+          <w:rsid w:val="00396132"/>
+          <w:rsid w:val="008441E8"/>
+          <w:rsid w:val="008701AF"/>
+          <w:rsid w:val="00A476DB"/>
+          <w:rsid w:val="00BC52C8"/>
+          <w:rsid w:val="00CE542C"/>
         </w:rsids>
         <m:mathPr>
           <m:mathFont m:val="Cambria Math"/>
@@ -689,7 +693,7 @@
         <w:themeFontLang w:val="en-US" w:eastAsia="zh-CN"/>
         <w:clrSchemeMapping w:bg1="light1" w:t1="dark1" w:bg2="light2" w:t2="dark2" w:accent1="accent1" w:accent2="accent2" w:accent3="accent3" w:accent4="accent4" w:accent5="accent5" w:accent6="accent6" w:hyperlink="hyperlink" w:followedHyperlink="followedHyperlink"/>
         <w:shapeDefaults>
-          <o:shapedefaults v:ext="edit" spidmax="2050"/>
+          <o:shapedefaults v:ext="edit" spidmax="4098"/>
           <o:shapelayout v:ext="edit">
             <o:idmap v:ext="edit" data="1"/>
           </o:shapelayout>
@@ -699,79 +703,11 @@
       </w:settings>
     </pkg:xmlData>
   </pkg:part>
-  <pkg:part pkg:name="/word/fontTable.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml">
-    <pkg:xmlData>
-      <w:fonts xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
-        <w:font w:name="Calibri">
-          <w:panose1 w:val="020F0502020204030204"/>
-          <w:charset w:val="00"/>
-          <w:family w:val="swiss"/>
-          <w:pitch w:val="variable"/>
-          <w:sig w:usb0="E0002AFF" w:usb1="C000247B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>
-        </w:font>
-        <w:font w:name="宋体">
-          <w:altName w:val="SimSun"/>
-          <w:panose1 w:val="02010600030101010101"/>
-          <w:charset w:val="86"/>
-          <w:family w:val="auto"/>
-          <w:pitch w:val="variable"/>
-          <w:sig w:usb0="00000003" w:usb1="288F0000" w:usb2="00000016" w:usb3="00000000" w:csb0="00040001" w:csb1="00000000"/>
-        </w:font>
-        <w:font w:name="Times New Roman">
-          <w:panose1 w:val="02020603050405020304"/>
-          <w:charset w:val="00"/>
-          <w:family w:val="roman"/>
-          <w:pitch w:val="variable"/>
-          <w:sig w:usb0="E0002EFF" w:usb1="C000785B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>
-        </w:font>
-        <w:font w:name="Cambria">
-          <w:panose1 w:val="02040503050406030204"/>
-          <w:charset w:val="00"/>
-          <w:family w:val="roman"/>
-          <w:pitch w:val="variable"/>
-          <w:sig w:usb0="E00002FF" w:usb1="400004FF" w:usb2="00000000" w:usb3="00000000" w:csb0="0000019F" w:csb1="00000000"/>
-        </w:font>
-      </w:fonts>
-    </pkg:xmlData>
-  </pkg:part>
   <pkg:part pkg:name="/word/webSettings.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml">
     <pkg:xmlData>
       <w:webSettings xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
         <w:optimizeForBrowser/>
       </w:webSettings>
-    </pkg:xmlData>
-  </pkg:part>
-  <pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml" pkg:padding="256">
-    <pkg:xmlData>
-      <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
-        <Template>Normal.dotm</Template>
-        <TotalTime>0</TotalTime>
-        <Pages>1</Pages>
-        <Words>21</Words>
-        <Characters>122</Characters>
-        <Application>Microsoft Office Word</Application>
-        <DocSecurity>0</DocSecurity>
-        <Lines>1</Lines>
-        <Paragraphs>1</Paragraphs>
-        <ScaleCrop>false</ScaleCrop>
-        <Company/>
-        <LinksUpToDate>false</LinksUpToDate>
-        <CharactersWithSpaces>142</CharactersWithSpaces>
-        <SharedDoc>false</SharedDoc>
-        <HyperlinksChanged>false</HyperlinksChanged>
-        <AppVersion>12.0000</AppVersion>
-      </Properties>
-    </pkg:xmlData>
-  </pkg:part>
-  <pkg:part pkg:name="/docProps/core.xml" pkg:contentType="application/vnd.openxmlformats-package.core-properties+xml" pkg:padding="256">
-    <pkg:xmlData>
-      <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-        <dc:creator>体验用户30</dc:creator>
-        <cp:lastModifiedBy>体验用户30</cp:lastModifiedBy>
-        <cp:revision>2</cp:revision>
-        <dcterms:created xsi:type="dcterms:W3CDTF">2017-01-19T11:23:00Z</dcterms:created>
-        <dcterms:modified xsi:type="dcterms:W3CDTF">2017-01-19T11:23:00Z</dcterms:modified>
-      </cp:coreProperties>
     </pkg:xmlData>
   </pkg:part>
   <pkg:part pkg:name="/word/styles.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml">
@@ -931,7 +867,7 @@
         <w:style w:type="paragraph" w:default="1" w:styleId="a">
           <w:name w:val="Normal"/>
           <w:qFormat/>
-          <w:rsid w:val="008B75E3"/>
+          <w:rsid w:val="00BC52C8"/>
           <w:pPr>
             <w:widowControl w:val="0"/>
             <w:jc w:val="both"/>
@@ -965,11 +901,21 @@
           <w:semiHidden/>
           <w:unhideWhenUsed/>
         </w:style>
-        <w:style w:type="table" w:styleId="a3">
+        <w:style w:type="paragraph" w:styleId="a3">
+          <w:name w:val="List Paragraph"/>
+          <w:basedOn w:val="a"/>
+          <w:uiPriority w:val="34"/>
+          <w:qFormat/>
+          <w:rsid w:val="008441E8"/>
+          <w:pPr>
+            <w:ind w:firstLineChars="200" w:firstLine="420"/>
+          </w:pPr>
+        </w:style>
+        <w:style w:type="table" w:styleId="a4">
           <w:name w:val="Table Grid"/>
           <w:basedOn w:val="a1"/>
           <w:uiPriority w:val="59"/>
-          <w:rsid w:val="00C848B9"/>
+          <w:rsid w:val="00A476DB"/>
           <w:tblPr>
             <w:tblInd w:w="0" w:type="dxa"/>
             <w:tblBorders>
@@ -989,6 +935,172 @@
           </w:tblPr>
         </w:style>
       </w:styles>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/docProps/core.xml" pkg:contentType="application/vnd.openxmlformats-package.core-properties+xml" pkg:padding="256">
+    <pkg:xmlData>
+      <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <dc:creator>体验用户30</dc:creator>
+        <cp:lastModifiedBy>体验用户30</cp:lastModifiedBy>
+        <cp:revision>2</cp:revision>
+        <dcterms:created xsi:type="dcterms:W3CDTF">2017-01-20T02:16:00Z</dcterms:created>
+        <dcterms:modified xsi:type="dcterms:W3CDTF">2017-01-20T02:16:00Z</dcterms:modified>
+      </cp:coreProperties>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/word/numbering.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml">
+    <pkg:xmlData>
+      <w:numbering xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:ve="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
+        <w:abstractNum w:abstractNumId="0">
+          <w:nsid w:val="28F87030"/>
+          <w:multiLevelType w:val="hybridMultilevel"/>
+          <w:tmpl w:val="023ABC3A"/>
+          <w:lvl w:ilvl="0" w:tplc="A5C61ADE">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="japaneseCounting"/>
+            <w:lvlText w:val="%1、"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="420" w:hanging="420"/>
+            </w:pPr>
+            <w:rPr>
+              <w:rFonts w:hint="default"/>
+            </w:rPr>
+          </w:lvl>
+          <w:lvl w:ilvl="1" w:tplc="04090019" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerLetter"/>
+            <w:lvlText w:val="%2)"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="840" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="2" w:tplc="0409001B" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerRoman"/>
+            <w:lvlText w:val="%3."/>
+            <w:lvlJc w:val="right"/>
+            <w:pPr>
+              <w:ind w:left="1260" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="3" w:tplc="0409000F" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="decimal"/>
+            <w:lvlText w:val="%4."/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="1680" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="4" w:tplc="04090019" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerLetter"/>
+            <w:lvlText w:val="%5)"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="2100" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="5" w:tplc="0409001B" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerRoman"/>
+            <w:lvlText w:val="%6."/>
+            <w:lvlJc w:val="right"/>
+            <w:pPr>
+              <w:ind w:left="2520" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="6" w:tplc="0409000F" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="decimal"/>
+            <w:lvlText w:val="%7."/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="2940" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="7" w:tplc="04090019" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerLetter"/>
+            <w:lvlText w:val="%8)"/>
+            <w:lvlJc w:val="left"/>
+            <w:pPr>
+              <w:ind w:left="3360" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+          <w:lvl w:ilvl="8" w:tplc="0409001B" w:tentative="1">
+            <w:start w:val="1"/>
+            <w:numFmt w:val="lowerRoman"/>
+            <w:lvlText w:val="%9."/>
+            <w:lvlJc w:val="right"/>
+            <w:pPr>
+              <w:ind w:left="3780" w:hanging="420"/>
+            </w:pPr>
+          </w:lvl>
+        </w:abstractNum>
+        <w:num w:numId="1">
+          <w:abstractNumId w:val="0"/>
+        </w:num>
+      </w:numbering>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/word/fontTable.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml">
+    <pkg:xmlData>
+      <w:fonts xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+        <w:font w:name="Times New Roman">
+          <w:panose1 w:val="02020603050405020304"/>
+          <w:charset w:val="00"/>
+          <w:family w:val="roman"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:usb0="E0002EFF" w:usb1="C000785B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>
+        </w:font>
+        <w:font w:name="Calibri">
+          <w:panose1 w:val="020F0502020204030204"/>
+          <w:charset w:val="00"/>
+          <w:family w:val="swiss"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:usb0="E0002AFF" w:usb1="C000247B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>
+        </w:font>
+        <w:font w:name="宋体">
+          <w:altName w:val="SimSun"/>
+          <w:panose1 w:val="02010600030101010101"/>
+          <w:charset w:val="86"/>
+          <w:family w:val="auto"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:usb0="00000003" w:usb1="288F0000" w:usb2="00000016" w:usb3="00000000" w:csb0="00040001" w:csb1="00000000"/>
+        </w:font>
+        <w:font w:name="Cambria">
+          <w:panose1 w:val="02040503050406030204"/>
+          <w:charset w:val="00"/>
+          <w:family w:val="roman"/>
+          <w:pitch w:val="variable"/>
+          <w:sig w:usb0="E00002FF" w:usb1="400004FF" w:usb2="00000000" w:usb3="00000000" w:csb0="0000019F" w:csb1="00000000"/>
+        </w:font>
+      </w:fonts>
+    </pkg:xmlData>
+  </pkg:part>
+  <pkg:part pkg:name="/docProps/app.xml" pkg:contentType="application/vnd.openxmlformats-officedocument.extended-properties+xml" pkg:padding="256">
+    <pkg:xmlData>
+      <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+        <Template>Normal.dotm</Template>
+        <TotalTime>0</TotalTime>
+        <Pages>1</Pages>
+        <Words>16</Words>
+        <Characters>93</Characters>
+        <Application>Microsoft Office Word</Application>
+        <DocSecurity>0</DocSecurity>
+        <Lines>1</Lines>
+        <Paragraphs>1</Paragraphs>
+        <ScaleCrop>false</ScaleCrop>
+        <Company/>
+        <LinksUpToDate>false</LinksUpToDate>
+        <CharactersWithSpaces>108</CharactersWithSpaces>
+        <SharedDoc>false</SharedDoc>
+        <HyperlinksChanged>false</HyperlinksChanged>
+        <AppVersion>12.0000</AppVersion>
+      </Properties>
     </pkg:xmlData>
   </pkg:part>
 </pkg:package>
